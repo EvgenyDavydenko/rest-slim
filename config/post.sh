@@ -1,0 +1,2 @@
+#! /bin/bash
+curl -X POST -H "Content-Type: application/json" -d '{"emp_no":"10016","birth_date":"1953-04-20","first_name":"Anneke","last_name":"Preusig","gender":"F","hire_date":"1989-06-02"}' slim.loc/employees
